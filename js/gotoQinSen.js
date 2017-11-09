@@ -1,0 +1,35 @@
+$("#nav-introduce").click(function(){
+	$("#company-introduce").css('display','block');
+	$("#culture").css('display','none');
+	$("#organization").css('display','none');
+	$("#honor").css('display','none');
+	$("#partner").css('display','none');
+});
+$("#nav-culture").click(function(){
+	$("#company-introduce").css('display','none');
+	$("#culture").css('display','block');
+	$("#organization").css('display','none');
+	$("#honor").css('display','none');
+	$("#partner").css('display','none');
+});
+$("#nav-organization").click(function(){
+	$("#company-introduce").css('display','none');
+	$("#culture").css('display','none');
+	$("#organization").css('display','block');
+	$("#honor").css('display','none');
+	$("#partner").css('display','none');
+});
+$("#nav-honor").click(function(){
+	$("#company-introduce").css('display','none');
+	$("#culture").css('display','none');
+	$("#organization").css('display','none');
+	$("#honor").css('display','block');
+	$("#partner").css('display','none');
+});
+$("#nav-partner").click(function(){
+	$("#company-introduce").css('display','none');
+	$("#culture").css('display','none');
+	$("#organization").css('display','none');
+	$("#honor").css('display','none');
+	$("#partner").css('display','block');
+});

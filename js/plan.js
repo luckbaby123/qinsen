@@ -1,0 +1,25 @@
+$("#nav-all-introduce").click(function(){
+	$("#all-introduce").css('display','block');
+	$("#team").css('display','none');
+	$("#collaborate").css('display','none');
+	$("#achievement").css('display','none');
+	
+});
+$("#nav-team").click(function(){
+	$("#all-introduce").css('display','none');
+	$("#team").css('display','block');
+	$("#collaborate").css('display','none');
+	$("#achievement").css('display','none');
+});
+$("#nav-collaborate").click(function(){
+	$("#all-introduce").css('display','none');
+	$("#team").css('display','none');
+	$("#collaborate").css('display','block');
+	$("#achievement").css('display','none');
+});
+$("#nav-achievement").click(function(){
+	$("#all-introduce").css('display','none');
+	$("#team").css('display','none');
+	$("#collaborate").css('display','none');
+	$("#achievement").css('display','block');
+});

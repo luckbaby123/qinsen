@@ -1,9 +1,42 @@
 #center-main{
 	
-	height: 300px;
+	height: 340px;
 	width: 560px;
 	position: absolute;
 	top: 180px;
 	left: 320px;
 	background-color: #fff;
+}
+
+.case_header li{
+	font-size: 16px;
+	float: left;
+	margin:20px 20px 10px 20px;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+	background: lightgrey;
+	text-align: center;
+	cursor: pointer;
+}
+.case_header li:first-child{
+	margin:20px 20px 10px 150px;
+}
+
+#civicism p,#civicism h2{
+	margin:15px 0 0 50px;
+}
+#civicism{
+	padding-top: 5px;
+}
+
+#land img{
+	height: 280px;
+	width: 560px;
+}
+#land{
+	display: none;
+}
+.clearfix{
+	clear:both;
 }

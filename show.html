@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>秦森园林</title>
+
+	<!--左侧隐藏菜单css文件 -->
+	<link rel="stylesheet" href="./css/menu.css" />	
+	
+	<link rel="stylesheet" href="./css/index.css" />
+	
+     <link rel="stylesheet" type="text/css" href="css/base.css"/>
+	
+	<!--主页隐藏菜单js文件 -->
+	<script type="text/javascript" src="./js/jquery.min.js" ></script>
+      <!--左侧菜单-->
+	 <script type="text/javascript" src="./js/jquery.lavalamp.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+	<!--私有-->
+	<link rel="stylesheet" type="text/css" href="css/case.css"/>
+	<script src="js/case.js" type="text/javascript"></script>
+		
+
+	
+
+</head>
+<body>
+	<div id="wrapper">
+		
+		<!--左侧导航-->
+		<div id="nav">
+			<div id="nav-menu">
+				<div id="logo-box">
+					<img src="img/logo.png">
+				</div>
+				<ul id="menu-box" class="menu-box">
+				    <li><a id="a1" onclick="index1()">首页</a></li>
+				    <li><a id="a2" onclick="gotoqinsen()">走入秦森</a></li>
+				    <li><a id="a3" onclick="news1();">新闻中心</a></li>
+				    <li><a id="a4" onclick="work1()">业务范围</a></li>
+					<!--<li><a id="a5" onclick="show1()">案例展示</a></li>-->
+					<li><a id="a6" onclick="plan1()">规划设计研究院</a></li>
+					<li><a id="a7" onclick="person1()">人才招聘</a></li>
+					<li><a id="a8" onclick="about1()">联系我们</a></li>
+				</ul>
+			</div>
+			<div id="nav-tips">
+				<hr id="hr1"><hr><hr>
+				<span>菜单</span>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="case_con">
+		<header class="case_header clearfix">
+			<ul>
+				<li ><a data-cont = "civicism" href="javascript:;" class="normal ">市政</a></li>
+				<li ><a data-cont = "land" href="javascript:;" class="normal">地产</a></li>
+				<li ><a data-cont = "scenic" href="javascript:;" class="normal">景区</a></li>
+				<li ><a data-cont = "industrial" href="javascript:;" class="normal">产业园区</a></li>
+			</ul>
+		</header>
+		<main class="case_main">
+			<section id="civicism">
+				<ul class="clearfix">
+					<li>
+						<img src="img/20150629114126295.jpg" alt="张江运动之城总体景观规划设计" title="张江运动之城总体景观规划设计"/>
+						<h3 class="case_main_h3">张江运动之城总体景观规划设计</h3>
+						<a class="case_main_tra" href="#">
+							<h5>张江运动之城总体景观规划设计</h5>
+							<p>8公里长的ISN休闲社交运动环，60万平方<br>米的情境体验型生态空间，百万人参与的<br>
+							开放式社交平台</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/2014120511253721.jpg" alt="江西南昌赣东大堤风光带" title="江西南昌赣东大堤风光带"/>
+						<h3 class="case_main_h3">江西南昌赣东大堤风光带</h3>
+						<a  class="case_main_tra" href="#">
+							<h5>江西南昌赣东大堤风光带</h5>
+							<p>总面积：1.17万平方米绿化率：8.56%设计<br>理念：注重整体统一性；实际功能性；人<br>
+							形流线，景观线性设计总投资：468万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202102656589.jpg" alt="昌南大道以南湿地公园" title="昌南大道以南湿地公园"/>
+						<h3 class="case_main_h3">昌南大道以南湿地公园</h3>
+						<a class="case_main_tra" href="#">
+							<h5>昌南大道以南湿地公园</h5>
+							<p>项目由法式园林和英式园林的融合国际化社区，<br>总投资：320万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/2014120210264482.jpg" alt="顾村公园二期" title="顾村公园二期"/>
+						<h3 class="case_main_h3">顾村公园二期</h3>
+						<a class="case_main_tra" href="#">
+							<h5>顾村公园二期</h5>
+							<p>优化区块：市政道路、入口区、高层区、多层区、<br>后山区，面积21530平方米，总投资970万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205112203806.jpg" alt="海口市美安科技新城生态景观系统策划" title="海口市美安科技新城生态景观系统策划"/>
+						<h3 class="case_main_h3">海口市美安科技新城生态景观系统策划</h3>
+						<a class="case_main_tra" href="#">
+							<h5>海口市美安科技新城生态景观系统策划</h5>
+							<p>区位：青浦朱家角，珠溪路课植园路交汇处；古涧<br>堂AB地块以西面积：市政绿化面积约22,500平米；<br>
+							用地总面积约19400平米；景观面积14,160平米；庭院数量30；绿地率37%</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202105340893.jpg" alt="山东聊城生态农业园" title="山东聊城生态农业园"/>
+						<h3 class="case_main_h3"> 山东聊城生态农业园</h3>
+						<a class="case_main_tra" href="#">
+							<h5>山东聊城生态农业园</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205111825778.jpg" alt="山东澭坊滨海经济技术开发区第二平原水库" title="山东澭坊滨海经济技术开发区第二平原水库"/>
+						<h3 class="case_main_h3">山东澭坊滨海经济技术开发区第二平原水库</h3>
+						<a class="case_main_tra" href="#">
+							<h5>山东澭坊滨海经济技术开发区第二平原水库</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205111213635.jpg" alt="山东澭坊滨海经济技术开发区盐碱吹镇区域" title="山东澭坊滨海经济技术开发区盐碱吹镇区域"/>
+						<h3 class="case_main_h3">山东澭坊滨海经济技术开发区盐碱吹镇区域</h3>
+						<a class="case_main_tra" href="#">
+							<h5>山东澭坊滨海经济技术开发区盐碱吹镇区域</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202105146612.jpg" alt="山东澭坊高新技术技术产业开发区（新昌片区）" title="山东澭坊高新技术技术产业开发区"/>
+						<h3 class="case_main_h3">山东澭坊高新技术技术产业开发区（新昌片区）</h3>
+						<a class="case_main_tra" href="#">
+							<h5>山东澭坊高新技术技术产业开发区</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205112043323.jpg" alt="信丰县桃江两岸景观" title="信丰县桃江两岸景观"/>
+						<h3 class="case_main_h3">信丰县桃江两岸景观</h3>
+						<a class="case_main_tra" href="#">
+							<h5>信丰县桃江两岸景观</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202105236947.jpg" alt="山东澭坊新弥河" title="山东澭坊新弥河"/>
+						<h3 class="case_main_h3">山东澭坊新弥河</h3>
+						<a class="case_main_tra" href="#">
+							<h5>山东澭坊新弥河</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202105212599.jpg" alt="上海外冈腊梅园" title="上海外冈腊梅园"/>
+						<h3 class="case_main_h3">上海外冈腊梅园</h3>
+						<a class="case_main_tra" href="#">
+							<h5>上海外冈腊梅园</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205110552647.jpg" alt="上海轨道交通12号工程金桥纽约景观工程" title="上海轨道交通12号工程金桥纽约景观工程"/>
+						<h3 class="case_main_h3">上海轨道交通12号工程金桥纽约景观工程</h3>
+						<a class="case_main_tra" href="#">
+							<h5>上海轨道交通12号工程金桥纽约景观工程</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205095535785.jpg" alt="南昌象湖湿地公园" title="南昌象湖湿地公园"/>
+						<h3 class="case_main_h3">南昌象湖湿地公园</h3>
+						<a class="case_main_tra" href="#">
+							<h5>南昌象湖湿地公园</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202105146612.jpg" alt="长兴岛湿地公园" title="长兴岛湿地公园"/>
+						<h3 class="case_main_h3">长兴岛湿地公园</h3>
+						<a class="case_main_tra" href="#">
+							<h5>长兴岛湿地公园</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section id="land">
+				<ul>
+					<li>
+						<img src="img/20141202102603688.jpg" alt="迪乐通信研发中心景观" title="迪乐通信研发中心景观"/>
+						<h3 class="case_main_h3">迪乐通信研发中心景观</h3>
+						<a class="case_main_tra" href="#">
+							<h5>迪乐通信研发中心景观</h5>
+							<p>总面积：1.17万平方米绿化率：8.56%设计<br>理念：注重整体统一性；实际功能性；人<br>
+							形流线，景观线性设计总投资：468万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/2014120210255230.jpg" alt="东湖秦森休闲广场景观设计" title="东湖秦森休闲广场景观设计"/>
+						<h3 class="case_main_h3">东湖秦森休闲广场景观设计</h3>
+						<a class="case_main_tra" href="#">
+							<h5>东湖秦森休闲广场景观设计</h5>
+							<p>总面积：1.17万平方米绿化率：8.56%设计<br>理念：注重整体统一性；实际功能性；人<br>
+							形流线，景观线性设计总投资：468万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202102505237.jpg" alt="南京J地块样板区" title="南京J地块样板区"/>
+						<h3 class="case_main_h3">南京J地块样板区</h3>
+						<a class="case_main_tra" href="#">
+							<h5>南京J地块样板区</h5>
+							<p>项目由法式园林和英式园林的融合国际化社区，<br>总投资：320万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205093349846.jpg" alt="上虞大通佳苑" title="上虞大通佳苑"/>
+						<h3 class="case_main_h3">上虞大通佳苑</h3>
+						<a class="case_main_tra" href="#">
+							<h5>上虞大通佳苑</h5>
+							<p>优化区块：市政道路、入口区、高层区、多层区、<br>后山区，面积21530平方米，总投资970万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205171357133.jpg" alt="古涧堂" title="古涧堂"/>
+						<h3 class="case_main_h3">古涧堂</h3>
+						<a class="case_main_tra" href="#">
+							<h5>古涧堂</h5>
+							<p>区位：青浦朱家角，珠溪路课植园路交汇处；古涧<br>堂AB地块以西面积：市政绿化面积约22,500平米；<br>
+							用地总面积约19400平米；景观面积14,160平米；庭院数量30；绿地率37%</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/201412050949232.jpg" alt="上海市总工会黄山疗养院景观" title="上海市总工会黄山疗养院景观"/>
+						<h3 class="case_main_h3">上海市总工会黄山疗养院景观</h3>
+						<a class="case_main_tra" href="#">
+							<h5>上海市总工会黄山疗养院景观</h5>
+							<p>上海市总工会黄山休养院绿化面积达76%，建筑群<br>体宏伟壮丽，庭院开阔。以百花园、百步林、芳草地、<br>
+							水上亭和喷水池等构成一派花园景色</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141205093426736.jpg" alt="大华泰洲锦绣国际商务中心景观" title="大华泰洲锦绣国际商务中心景观"/>
+						<h3 class="case_main_h3">大华泰洲锦绣国际商务中心景观</h3>
+						<a class="case_main_tra" href="#">
+							<h5>大华泰洲锦绣国际商务中心景观</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section id="scenic">
+				<ul>
+					<li>
+						<img src="img/20150629144451619.JPG" alt="安麓兰亭旅游度假区" title="安麓兰亭旅游度假区"/>
+						<h3 class="case_main_h3">安麓兰亭旅游度假区</h3>
+						<a class="case_main_tra" href="#">
+							<h5>安麓兰亭旅游度假区</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+					<li>
+						<img src="img/20141202102303205.jpg" alt="江西南昌梅湖风景区" title="江西南昌梅湖风景区"/>
+						<h3 class="case_main_h3">江西南昌梅湖风景区</h3>
+						<a class="case_main_tra" href="#">
+							<h5>江西南昌梅湖风景区</h5>
+							<p>地块区位：泰州市开发区中心板块<br>面积：10882㎡绿化率：22%总投资：435万</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section id="industrial"> </section>
+		</main>
+	</div>
+		
+	</div>
+	<script type="text/javascript" src="./js/img_change.js" ></script>
+	<script type="text/javascript" src="js/menu.js" ></script>
+	<!--页面切换 -->
+	<script type="text/javascript" src="js/loadPage.js"></script>
+</body>
+	<script type="text/javascript">
+    
+    $(function(){
+    	
+    	var widHeight = $(window).height(),
+                caseHeaderHeight = 160,
+                wrappHeight = widHeight - caseHeaderHeight;
+            $(".case_main").css({height: wrappHeight});
+
+    	
+        // list hover
+        $(".case_main  ul li").each(function(){
+            var li = $(this),
+                liTxt = li.children(".case_main_tra"),
+                liTit = li.children(".case_main_h3"),
+                time = 200;
+
+            li.mouseenter(function(){
+                liTit.animate({bottom: -48}, time);
+                liTxt.delay( 100 ).animate({top: 0, opacity: 0.7}, time);
+            }).mouseleave(function(){
+                liTit.stop(true,false).animate({bottom: 0}, time);
+                liTxt.stop(true,false).animate({top: -48, opacity: 0}, time);
+            });
+
+        });
+    });
+
+    
+</script>
+   	
+	
+</html>
+

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>秦森园林</title>
+
+		<!--左侧隐藏菜单css文件 -->
+		<link rel="stylesheet" href="./css/menu.css" />
+		<link rel="stylesheet" href="./css/qinsen_img_change.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" href="css/indexPanel.css" />
+		<!--进入秦森-->
+		<link rel="stylesheet" href="css/gotoQinSen.css" />
+		<!--主页隐藏菜单js文件 -->
+		<script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+
+		<script type="text/javascript" src="./js/jquery.lavalamp.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+		<script src="js/indexPanel.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<!--主要图片轮播-->
+			<div id="col">
+				<div class="bottom_show"></div>
+				<div id="direction-nav1"></div>
+				<div id="direction-nav2"></div>
+			</div>
+			
+			
+			<!--左侧导航-->
+			<div id="nav">
+				<div id="nav-menu">
+					<div id="logo-box">
+						<img src="img/logo.png">
+					</div>
+					<ul id="menu-box" class="menu-box">
+					    <li><a id="a1" onclick="index1()">首页</a></li>
+					    <li><a id="a2" onclick="gotoqinsen()">走入秦森</a></li>
+					    <li><a id="a3" onclick="news1()">新闻中心</a></li>
+					    <!--<li><a id="a4" onclick="work1()">业务范围</a></li>-->
+						<li><a id="a5" onclick="show1()">案例展示</a></li>
+						<li><a id="a6" onclick="plan1()">规划设计研究院</a></li>
+						<li><a id="a7" onclick="person1()">人才招聘</a></li>
+						<li><a id="a8" onclick="about1()">联系我们</a></li>
+					</ul>
+				</div>
+				<div id="nav-tips">
+					<hr id="hr1">
+					<hr>
+					<hr>
+					<span>菜单</span>
+				</div>
+			</div>
+			
+			<!--右侧-->
+			<div id="right-main">
+				<!--右侧选项卡菜单-->
+				<div id="select-menu">
+					<ul>       
+				        <li class="active"><a id="nav-all-introduce">总体介绍</a></li>			        
+				        <li><a id="nav-team">团队构成</a></li>			        
+				        <li><a id="nav-collaborate">合作模式</a></li>			        
+				        <li><a id="nav-achievement">研究成果</a></li>			        
+				        
+					</ul>
+				</div>
+				<!--右侧选项卡内容-->
+				<div class="select-main">
+					<!--总体介绍-->
+					<div id="all-introduce">
+						<!--总体介绍标题-->
+						<div class="title-box">
+							<!--总体介绍题左侧-->
+							<div class="title-left">
+								<div class="title1">总体介绍</div>
+								<div class="title2">DESIGN AND RESEARCH</div>
+							</div>
+							<!--总体介绍标题右侧-->
+							<div class="title-right">
+								<span>你的当前位置： 首页 > 总体介绍 </span>
+							</div>							
+						</div>
+						<!--总体介绍主体内容-->
+						<div class="select-content">
+							<h3>秦森景观规划设计研究院是秦森集团公司全产业链上最前端的核心技术团队.</h3>
+							<p>提供全方位的景观规划咨询及专业生态科技支持;</p>
+							<p>致力于领先的学术理论和先进设计理念的拓展与研发;</p>	
+							<p>探索并实践城市生态景观规划设计、建设及运营的最优方案。</p>	
+							<p>研究院拥有大量业内知名的专家、顾问以及富有经验的支持实施团队.</p>	
+							<p>依据行业发展趋势，自身技术特色及资源优势，研究院目前设有六大研究中心。</p>	
+							<img src="img/allIntr.jpg" />
+						</div>
+					</div>
+					
+					<!--团队构成-->
+					<div id="team">
+						<!--团队构成标题-->
+						<div class="title-box">
+							<!--团队构成标题左侧-->
+							<div class="title-left">
+								<div class="title1">团队构成</div>
+								<div class="title2">GROUP ADVANTAGE</div>
+							</div>
+							<!--团队构成标题右侧-->
+							<div class="title-right">
+								<span>你的当前位置： 首页 > 团队构成</span>
+							</div>							
+						</div>
+						<!--团队构成主体内容-->
+						<div class="select-content">
+							<img src="img/team.jpg" />
+							
+						</div>
+					</div>
+					<!--合作模式-->
+					<div id="collaborate">
+						<!--合作模式-->
+						<div class="title-box">
+							<!--合作模式标题左侧-->
+							<div class="title-left">
+								<div class="title1">合作模式</div>
+								<div class="title2">ORGANIZATION</div>
+							</div>
+							<!--合作模式标题右侧-->
+							<div class="title-right">
+								<span>你的当前位置： 首页 > 合作模式</span>
+							</div>							
+						</div>
+						<!--合作模式主体内容-->
+						<div class="select-content">
+							<h2>合作模式:</h2>
+							<p>
+								深入研究园林景观项目的内部与外部条件，使项目的建设发展与
+								产业布局、生态系统、景观风貌、城市交通、休闲游憩等诸多领域协同发展，
+								为项目的可持续发展创造条件，为区域与城市创造更多复合价值。
+							</p>
+							<h2>运作模式：</h2>
+							<img src="img/operation.jpg" />
+							<h3>运作模式：</h3>
+							<p>前期策划咨询</p>
+							<p>ONSITE WORKSHOP（现场工作组）</p>
+							<p>专家顾问咨询</p>
+							<p>后期实施服务</p>
+							<p>专业课题研究（国家级、行业性、自主课题）</p>
+							<p>专项研究结合项目策划，形成完善的研究成果，进而全面指导园林景观项目的整体规划设计，
+								并与施工成果进行无缝衔接，保证实施项目与设计研究成果的一致，最后经过运营管理及社会评价，
+								将项目面临的问题反馈到前端研究领域，形成良性循环，指导项目的持续性发展和形成后续项目的理论依据。
+							</p>
+						</div>
+					</div>
+					
+					<!--研究成果-->
+					<div id="achievement">
+						<!--研究成果标题-->
+						<div class="title-box">
+							<!--研究成果标题左侧-->
+							<div class="title-left">
+								<div class="title1">研究成果</div>
+								<div class="title2">DESIGN AND RESEARH</div>
+							</div>
+							<!--研究成果标题右侧-->
+							<div class="title-right">
+								<span>你的当前位置： 首页 > 研究成果</span>
+							</div>							
+						</div>
+						<!--研究成果主体内容-->
+						<div class="select-content">
+							<p>《上海地铁景观研究》</p>
+							<p>《象湖湿地水生态研究》</p>
+							<p>《产业园区生态景观研究》</p>
+							<p>《郊野公园研究》》</p>
+							<p>《绍兴人文景观研究》</p>
+							<p>《当代中国古建文化的创新保护及传承探索——以绍兴安麓兰亭项目为例》</p>
+							<p>《古建筑异地保护研究——以绍兴安麓古建保护为例》</p>
+							
+						
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+			
+		
+
+		</div>
+		<script type="text/javascript" src="./js/qinsen_img_change.js"></script>
+		<!--选项卡切换-->
+		<script type="text/javascript" src="js/plan.js"</script>
+			<!--页面切换 -->
+	<script type="text/javascript" src="js/loadPage.js"></script>
+	</body>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			 //左侧隐藏菜单
+			$("#click-btn").click(function(){
+				var bottom = $('#click-btn').css('bottom');
+				if(bottom=="10px"){
+					//显示
+					$("#hide-message").css({'bottom':'0px'});
+					$("#click-btn").css({'bottom':'150px'});	
+				}
+				else{
+					//隐藏
+					$("#hide-message").css({'bottom':'-350px'});
+					$("#click-btn").css({'bottom':'10px'});	
+				}
+					
+				
+		
+			});
+			
+			
+  			
+			$("#menu-box").lavaLamp({
+                fx: "linear", 
+                speed: 300,
+                click: function(event, menuItem) {
+                    return false;
+                }
+            });
+			
+			
+		});
+	</script>
+<!--页面切换 -->
+		<script type="text/javascript" src="js/loadPage.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+
+</html>

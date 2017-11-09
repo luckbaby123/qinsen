@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>秦森园林</title>
+
+		<!--左侧隐藏菜单css文件 -->
+		<link rel="stylesheet" href="./css/menu.css" />
+		<link rel="stylesheet" href="./css/qinsen_img_change.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" href="css/indexPanel.css" />
+		<!--进入秦森-->
+		<link rel="stylesheet" href="css/gotoQinSen.css" />
+		<!--主页隐藏菜单js文件 -->
+		<script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+
+		<script type="text/javascript" src="./js/jquery.lavalamp.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+		<script src="js/indexPanel.js" type="text/javascript" charset="utf-8"></script>
+		<!--私有文件 -->
+		<link rel="stylesheet" href="css/connection.css" />
+
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<!--主要图片轮播-->
+			<div id="col">
+				<div class="bottom_show"></div>
+				<div id="direction-nav1"></div>
+				<div id="direction-nav2"></div>
+			</div>
+			
+			
+			<!--左侧导航-->
+			<div id="nav">
+				<div id="nav-menu">
+					<div id="logo-box">
+						<img src="img/logo.png">
+					</div>
+					<ul id="menu-box" class="menu-box">
+					    <li><a id="a1" onclick="index1()">首页</a></li>
+					    <li><a id="a2" onclick="gotoqinsen()">走入秦森</a></li>
+					    <li><a id="a3" onclick="news1()">新闻中心</a></li>
+					    <!--<li><a id="a4" onclick="work1()">业务范围</a></li>-->
+						<li><a id="a5" onclick="show1()">案例展示</a></li>
+						<li><a id="a6" onclick="plan1()">规划设计研究院</a></li>
+						<li><a id="a7" onclick="person()">人才招聘</a></li>
+						<li><a id="a8" onclick="about1()">联系我们</a></li>
+					</ul>
+				</div>
+				<div id="nav-tips">
+					<hr id="hr1">
+					<hr>
+					<hr>
+					<span>菜单</span>
+				</div>
+			</div>
+			
+			<!--右侧-->
+			<div id="center-main" >
+				<div class="case_con">
+				<header class="case_header clearfix">
+			<ul>
+				<li ><a data-cont = "civicism" href="javascript:;" class="normal ">市政</a></li>
+				<li ><a data-cont = "land" href="javascript:;" class="normal">地产</a></li>
+				
+			</ul>
+				</header>
+				<main class="case_main clearfix">
+			<section id="civicism">
+				<h2>上海秦森园林股份有限公司</h2>
+				<p>地 址：上海市静安区汶水路299弄市北智汇园10号楼</p>
+				<p>电 话：021-66583001</p>
+				<p>传 真：021-66833001</p>
+				<p>邮 编：200072</p>
+				<p>邮 箱：qinsen-pb@qinsen-la.com</p>
+			</section>
+			
+			<section id="land">
+				<ul>
+					<li>
+						<img src="img/map.png" />
+						
+					</li>
+				</ul>
+			</section>
+				</main>
+				</div>
+				
+			</div>
+			
+		
+
+		</div>
+		<script type="text/javascript" src="./js/qinsen_img_change.js"></script>
+		<!--选项卡切换-->
+		<script type="text/javascript" src="js/gotoQinSen.js"</script>
+		<!--页面切换 -->
+	<script type="text/javascript" src="js/loadPage.js"></script>	
+	<script type="text/javascript" src="js/connection.js"></script>
+	</body>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			 //左侧隐藏菜单
+			$("#click-btn").click(function(){
+				var bottom = $('#click-btn').css('bottom');
+				if(bottom=="10px"){
+					//显示
+					$("#hide-message").css({'bottom':'0px'});
+					$("#click-btn").css({'bottom':'150px'});	
+				}
+				else{
+					//隐藏
+					$("#hide-message").css({'bottom':'-350px'});
+					$("#click-btn").css({'bottom':'10px'});	
+				}
+					
+				
+		
+			});
+			
+			
+  			
+			$("#menu-box").lavaLamp({
+                fx: "linear", 
+                speed: 300,
+                click: function(event, menuItem) {
+                    return false;
+                }
+            });
+			
+			
+		});
+	</script>
+
+	<script type="text/javascript" src="js/menu.js"></script>
+	<!--页面切换 -->
+	<script type="text/javascript" src="js/loadPage.js"></script>
+
+</html>

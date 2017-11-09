@@ -1,0 +1,130 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, img, dl, dt, dd, table, th, td, blockquote, fieldset, div, strong, label, em, img ,hr{
+	margin:0;
+	padding:0;
+	border:0;
+}
+ul, ol, li {
+	list-style:none;
+}
+
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 auto;
+
+}
+#nav {
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	font-size: 16px;
+	
+}
+#nav #nav-menu{
+	width: 225px;
+	height: 100%;
+	float:left;
+	background-color: rgba(255,255,255,0.8);
+	
+	}
+
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  #nav-menu{
+    background-color:#fff;
+    filter:Alpha(opacity=80);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+   #nav-menu ul{
+  /*  position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */*/
+  
+  }  
+}
+#nav #nav-tips{
+	width: 32px;
+	height: 100%;
+	float:left;
+	background-color: rgba(255,255,255,0.4);
+}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  #nav-tips{
+    background-color:#fff;
+    filter:Alpha(opacity=40);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+   #nav-tips span,#nav-tips hr{
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+  }  
+}
+#logo-box img{
+	padding-left: 50px;
+	margin-bottom: 32px;
+	margin-top: 30px;
+	
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+.menu-box {
+	/*position: relative;*/
+
+	width:175px;
+	padding-left: 25px;
+}
+.menu-box li {
+width:175px;
+
+
+padding-left: 25px;
+	
+}
+.menu-box li.back {
+	background: url(../img/fish.png) 100% 50% no-repeat;
+	width:20px;
+	height: 20px;	
+	z-index: 2000;
+	position: absolute;
+	padding-left: 0px;
+	
+}
+.menu-box li a {
+	color: #781918;	
+	text-align: center;
+	letter-spacing: 0;
+	z-index: 1210;
+	display:inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;  
+	/*position: relative;*/
+	cursor: pointer;
+	
+	
+	
+}
+.menu-box li a:hover{
+	color: #d88381;
+}
+
+#nav #nav-tips hr{
+	height:2px;border:none;border-top:2px ridge white;
+	width: 50%;
+	color: #fff;
+	margin: 5px auto;
+	
+}
+#nav #nav-tips hr#hr1{
+	margin-top: 300px;
+}
+#nav #nav-tips span{
+	display:block;
+	color: #fff;
+	margin:  auto;
+	text-align: center;
+
+	
+}

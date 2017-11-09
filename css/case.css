@@ -1,0 +1,151 @@
+body{
+	background-color:#f5f5f5;
+}
+.case_con {
+	width: 1366px;
+	/*height: 2000px;*/
+	position: relative;
+}
+.case_con > .case_header{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top:120px;
+	left: 22%;
+	z-index: 1000;
+	
+}
+.case_con > .case_header > ul{
+	width: 536px;
+	height: 38px;
+}
+.case_con > .case_header > ul >li{
+	width:102px;
+	height: 38px;
+	float: left;
+	margin-right: 30px;
+	
+}
+.case_con > .case_header > ul >li >a.normal{
+	font-size: 14px;
+	color: black;
+	background:#ededed;
+	display: block;
+	width: 102px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+}
+
+.case_con > .case_header > ul >li > a.selected{
+	width:102px;
+	height: 38px;
+	font-size: 14px;
+	background:#862c2a ;
+	color: #fff;
+	font-weight: bold;
+	line-height: 38px;
+	text-align: center;
+	display: block;
+}
+.case_con > .case_header > ul >li >a:hover,a:visited,a:link{
+	
+	font-size: 14px;
+	background:#862c2a ;
+	color: #fff;
+	font-weight: bold;
+	
+	
+}
+.case_con > .case_main{
+	width: 100%;
+	
+	position:fixed;
+	top: 170px;
+	margin: 0 auto;
+	background:#ededed;
+	overflow: scroll;
+	z-index: 500;
+}
+.case_con > .case_main >section{
+	margin-left: 21%;
+	
+}
+/*.case_con > .case_main >section > ul{
+	width:1076px;
+	height: 1480px;
+	margin-top: 30px;
+	border: 2px solid red;
+	overflow: hidden;
+}*/
+.case_con > .case_main > #civicism{
+	
+	display: block;
+	/*height:450px;*/
+	overflow: auto;
+	
+}
+.case_con > .case_main > #land{
+	display: none;
+	/*height:450px;*/
+	
+	overflow: auto;
+}
+.case_con > .case_main > #scenic{
+	display: none;
+	/*height:450px;*/
+}
+.case_con > .case_main > #industrial{
+	display: none;
+	height:450px;
+	
+}
+
+.case_con > .case_main >section > ul >li{
+	width:295px;
+	height:218px;
+	float: left;
+	margin: 20px 10px ;
+	position: relative;
+	z-index: 50;
+	overflow: hidden;
+}
+.case_con > .case_main >section > ul >li> h3{
+	width: 295px;
+	height: 48px;
+	background: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+	display: block;
+	-webkit-transition:all 0.2s linear;
+}
+.case_con > .case_main >section > ul > li > a.case_main_tra{
+	width: 295px;
+	height: 218px;
+	
+	background: #862c2a;
+	position: absolute;
+	left: 0px;
+	 top: -48px; 
+	 opacity: 0; 
+	 filter:alpha(opacity=0);
+}
+.case_con > .case_main >section > ul > li > a > h5{
+	margin:40px 20px 20px 0;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+.case_con > .case_main >section > ul > li > a > p{
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	line-height: 25px;
+	
+}

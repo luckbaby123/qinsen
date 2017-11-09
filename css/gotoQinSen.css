@@ -1,0 +1,132 @@
+/*右边选项卡容器*/
+#right-main{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 600px;
+	/*border: 2px solid red;*/
+	background-color: #fff;	
+	
+}
+/*右侧选项卡菜单*/
+#select-menu{
+   position: absolute;
+   right: 600px;
+   width: 90px;
+   font-size: 18px;
+   margin-top: 100px;
+}
+#select-menu ul{
+	
+}
+/*右侧选项卡菜单中li*/
+#select-menu ul li{
+	text-align: center;
+	background-color: #fff;
+	margin-bottom: 15px;	
+}
+/*右侧选项卡菜单中li a*/
+#select-menu ul li a{
+	display: inline-block;
+	padding:5px 0 5px 0;
+		
+}
+#select-menu ul li a:hover{
+	color: #962d3e;
+}
+.select-main{
+
+	padding: 50px 20px 0px 20px;
+	 /*height: 500px;*/
+	
+	/* overflow: hidden;*/
+}
+/*以公司简介为例,右侧标签页中标题*/
+.title-box{
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+}
+.title-box .title-left{
+	float:left;
+	font-size: 25px;	
+}
+.title-box .title-left .title2{
+	color: gray;
+}
+.title-box .title-right{
+	float:right;
+}
+/*以公司简介为例,右侧标签页中主体内容*/
+.select-content{
+	height: 500px;
+	overflow-x:auto;
+	white-space:nowrap;
+}
+
+#company-introduce .select-content h2{
+	margin-bottom: 30px;
+	color: #962d3e;
+}
+.select-content p{
+	line-height: 25px;
+}
+#company-introduce .select-content .p1 span{
+	font-weight: bold;
+	font-size: 15px;
+	color: #962d3e;
+}
+#company-introduce .select-content .p1{
+	margin-bottom: 20px;
+}
+/*文化*/
+#culture{
+	display: none;
+}
+#culture .select-content h2{
+	margin-top: 30px;
+	color: #962d3e;
+}
+#organization{
+	display: none;
+}
+#organization .select-content h2{
+	color: #962d3e;
+	margin-bottom: 20px;
+}
+
+#organization #organization-img{
+	width: 560px;
+}
+#honor{
+	display:none;
+}
+#honor .select-content h2{
+	color: #962d3e;
+	margin-top: 20px;
+}
+#partner{
+	display: none;
+}
+/*总体介绍*/
+#all-introduce{
+
+}
+#all-introduce .select-content h3{
+	color: #962d3e;
+	margin-bottom: 20px;
+}
+ .select-content img{
+	width: 560px;
+}
+#team{
+	display:none;
+}
+#collaborate{
+	display: none;
+}
+#achievement{
+	display: none;
+}

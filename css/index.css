@@ -1,0 +1,129 @@
+#footer{
+	position: fixed;
+	bottom:0px;
+    left:0px;
+    z-index: 3000;
+    height: 185px;
+    width: 100%;
+   
+}
+#click-icon{
+	height: 50px;
+	text-align: center;
+}
+#click-icon img{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 10px;
+	z-index: 5200;
+}
+#hide-message{
+	background-color: #fff;
+	position: relative;
+	height: 100%;
+	bottom: -350px;
+}
+#footer-message{
+	float: left;
+	margin-top: 45px;
+	margin-left:1%;
+	height: 100%;
+	background-color: #fff;
+	width:20%;
+	  
+}
+#footer-message .copy{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #648e8a;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #862c2a;
+}
+#footer-message .tel{
+	font-size: 50%;
+	color: #461f05;
+}
+
+#case-show{
+	height: 100%;
+	float: left;
+	margin:0 10px;
+	width: 48%;
+}
+#case-show h5{
+	font-size: 13px;
+	color: #862c2a;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+#case-show h5 a{
+	float: right;
+	right: 0px;
+	display: inline-block;
+	color: #862c2a;
+}
+#case-show h5 a:hover{
+	color: #da514e;
+}
+#case-show ul{overflow: hidden;} 
+#case-show ul li.show-info{
+	float: left;
+	width: 30%;
+	padding: 0.8%;
+margin-right: 1.2%;
+}
+#case-show ul li span{
+	display: block;
+	text-align: center;
+}
+.show-info img{
+	height: 100%;
+	width: 100%;
+}
+#service-message{
+	float: left;	
+	height: 100%;	
+	background-color: #628d1b;	
+	color: #fff;
+	width:27.3%;
+	padding-left: 2%;
+
+}
+
+#service-message h2{
+	
+	margin-top: 15px;
+	
+} 
+#service-message p{
+	
+	margin-top: 20px;	
+	line-height: 18px;
+}
+#service-message #tree{
+	position: absolute;
+	right:-168px;
+	z-index: 4500;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
